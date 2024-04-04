@@ -23,14 +23,36 @@
         <h2><b>Portafolio</b></h2> <br>
         <!-- <h2>Portafolio UX-UI Design</h2> -->
         <!-- <h2>Portafolio Creative</h2> -->
-        <div class="galeria">
-            <a href="https://pablocelva.github.io/celvaprod/" target="_blank"><img src="assets/img/celvaprod-portafolio.jpg" alt="CelvaProd Portafolio"></a>
-            <a href="https://pablocelva.github.io/cuppon/" target="_blank"><img src="assets/img/cuppon-ecommerce.jpg" alt=""></a>
-            <a href="https://pablocelva.github.io/iguana-page/" target="_blank"><img src="assets/img/iguana-page.jpg" alt="Iguana Page"></a>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://pablocelva.github.io/celvaprod/" target="_blank"><img src="assets/img/celvaprod-portafolio.jpg" class="d-block w-100" alt="CelvaProd Portafolio"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://pablocelva.github.io/cuppon/" target="_blank"><img src="assets/img/cuppon-ecommerce.jpg" class="d-block w-100" alt="cuppon-ecommerce"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://pablocelva.github.io/iguana-page/" target="_blank"><img src="assets/img/iguana-page.jpg" class="d-block w-100" alt="Iguana Page"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </main>
     <footer>
         <b>2024 Pablo Lambert WebDev</b>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+</script>
 </body>
 </html>
